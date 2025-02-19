@@ -102,9 +102,8 @@ section {
 }
 
 .main-btn:hover {
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    color: var(--text-red);
+    color: #75d4fa;
+    background-color: white;
 }
 
 h1 {
@@ -429,3 +428,71 @@ margin: 0px;
 .footer_wrapper .copyright-text a {
     color: var(--primary-color);
 }
+.projects {
+    background-color: #000; /* Dark Background */
+    color: white;
+    padding: 60px 0;
+  }
+  
+  .container {
+    width: 85%;
+    margin: auto;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  
+  .project.even {
+    flex-direction: row-reverse; /* Reverse layout for even projects */
+  }
+  
+  .project-content {
+    width: 45%;
+    position: relative;
+  }
+  
+  .project h2 {
+    font-size: 3rem;
+    opacity: 0.1;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+  }
+  
+  .project h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    padding: 10px 15px;
+    background-color: #ff4d00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: #f8f7f6;
+    color: #000;
+    border-radius: 30px;
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(210, 218, 91, 0.1);
+  }
